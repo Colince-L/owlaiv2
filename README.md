@@ -1,8 +1,8 @@
-# DREADED-MD
+#𝐓𝐇𝐄𝐄 𝐎𝐖𝐋 𝐀𝐈 𝐕𝟐
 
 <div align="center">
 
-| [![Fortunatus Mokaya](https://github.com/Fortunatusmokaya.png?lenght=50width=50)](https://github.com/Fortunatusmokaya)|
+| [![OWLAI](https://github.com/owalai01.png?lenght=50width=50)](https://github.com/owlai01)|
 |----|
 
 
@@ -21,7 +21,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 <h2 align="center">   
 
-- Fork this repo by tapping  [here](https://github.com/Fortunatusmokaya/dreaded-md/fork)
+- Fork this repo by tapping  [here](https://github.com/owlai01/owlaiv2-/fork)
 
 
 ## Pairing:
@@ -37,7 +37,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
    - ***[`CREATE HEROKU ACCOUNT`](https://signup.heroku.com/) `if you don't have one.`***
 
 
-- ***Now [`DEPLOY TO HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/Fortunatusmokaya/dreaded-md).***
+- ***Now [`DEPLOY TO HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/owlai01/owlaiv2-).***
 
 -***`Fill in all the required variables and deploy the bot.`***
 
@@ -48,9 +48,9 @@ Thanks to...
 
 <div align="center">
 
-| [![Fortunatus Mokaya](https://github.com/Fortunatusmokaya.png?lenght=50width=50)](https://github.com/Fortunatusmokaya)|
+| [![Malibu](https://github.com/owlai01.png?lenght=50width=50)](https://github.com/owlai01)|
 |----|
-* [`Fortunatus mokaya`](https://github.com/Fortunatusmokaya) ***Author, Owner***
+* [`MALIBU`](https://github.com/owlai01) ***Author, Owner***
 
 * [`DikaArdnt`](https://github.com/DikaArdnt) ***For Hisoka Base***
 * [`Adiwajshing`](https://github.com/WhiskeySockets/Baileys) ***Baileys Library***
@@ -60,14 +60,14 @@ Thanks to...
 
 ---
 
-Incase of any issues, contact me  [here](https://wa.me/+254114018035) via WhatsApp or [here](mokayafortunatus@gmail.com) via Email.
+Incase of any issues, contact me  [here](https://wa.me/+254712703241) via WhatsApp or [here](kiddomalibu@gmail.com) via Email.
 
 Modifying the bot structure is at your own risk. We won't offer technical support if error occur.
 
 
 ## License
 
-[MIT License](https://github.com/Fortunatusmokaya/DREADED-GPT-AI/blob/main/LICENSE)
 
-Copyright (c) 2024 DREADED-MD
+
+Copyright (c) 2024 𝐎𝐖𝐋 𝐀𝐈 𝐕𝟐
 
