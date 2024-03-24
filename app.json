@@ -1,5 +1,5 @@
 {
-  "name": "𝐎𝐖𝐋 𝐀𝐈 𝐕𝟐",
+  "name": "OWL AI",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -16,17 +16,18 @@
   ],
   "website": "https://github.com/Fortunatusmokaya/DREADED-GPT-AI#readme",
   "repository": "https://github.com/Fortunatusmokaya/DREADED-GPT-AI.git",
-  "logo": "https://telegra.ph/file/46f0b5244b9f237e6b6f7.jpg": "/",
+  "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+  "success_url": "/",
   "env": {
        "PREFIX":
     {
-      "description":"choose your prefix for owl",
+      "description":"choose your prefix for OWL",
       "value":"",
       "required":false
     },
 
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254712703241 ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254712703241, 254741889898 ",
       "required": true
     },
 
