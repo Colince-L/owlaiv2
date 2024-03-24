@@ -70,7 +70,7 @@ var msgDreaded = m.message.extendedTextMessage?.contextInfo?.quotedMessage;
    // leave the prefix string empty if you don't want the bot to use a prefix
 
 const mode = process.env.MODE || 'PUBLIC';
-const author = process.env.STICKER_AUTHOR || 'malibu';
+const author = process.env.STICKER_AUTHOR || '𝐎𝐰𝐥';
     const prefix = process.env.PREFIX || '';
 const mycode = process.env.COUNTRY_CODE || '254';
     const cmd = body.startsWith(prefix);
@@ -80,7 +80,7 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
-    const packname = process.env.STICKER_PACKNAME || 'dreaded';
+    const packname = process.env.STICKER_PACKNAME || 'owl';
 const dev = process.env.DEV || '254712703241'
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
@@ -130,6 +130,15 @@ const reactionMessage = {
 }
 
 
+async function sendReact(emoji) {
+      let react = {
+        react: {
+          text: emoji,
+          key: m.key,
+        },
+      };
+      await client.sendMessage(m.chat, react);
+    }
 
 
 
@@ -151,9 +160,9 @@ const audiovn = "./alive.mp3";
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "𝐇𝐄𝐘 𝐏𝐀𝐋 𝐀𝐌 𝐀𝐋𝐈𝐕𝐄",
+          title: "𝐇𝐢 𝐩𝐚𝐥 , 𝐢 𝐚𝐦 𝐚𝐥𝐢𝐯𝐞 ",
           body: "𝐎𝐖𝐋 𝐀𝐈",
-          thumbnailUrl: "https://telegra.ph/file/46f0b5244b9f237e6b6f7.jpg",
+          thumbnailUrl: "https://telegra.ph/file/46f0b5244b9f237e6b6f7.jpg,
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
@@ -391,7 +400,7 @@ if (stdout) return reply(stdout)
     if (mek.key.id.startsWith("BAE5") && m.isGroup && !isAdmin && isBotAdmin && mek.key.id.length === 16 && antibot === 'TRUE') {  
 
  const kidts = m.sender;  
-  await client.sendMessage(m.chat, { text: `𓅓owl AntiBot:\n@${kidts.split("@")[0]} is bot and has been removed to prevent spam!\nTo deactivate antibot set ANTIBOT variable to FALSE`, contextInfo:{mentionedJid:[kidts]}}, {quoted:m});  
+  await client.sendMessage(m.chat, { text: `Dreaded AntiBot:\n@${kidts.split("@")[0]} is bot and has been removed to prevent spam!\nTo deactivate antibot set ANTIBOT variable to FALSE`, contextInfo:{mentionedJid:[kidts]}}, {quoted:m});  
   await client.groupParticipantsUpdate(m.chat, [kidts], 'remove');  
 
   } 
@@ -505,7 +514,7 @@ return;
 
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ OWL-MD ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ OWL-AI V2 ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
