@@ -59,10 +59,10 @@ const logger = logger_1.default.child({});
 logger.level = 'silent';
 const kali = readFileSync('./dreaded.jpg'); // Using readFileSync directly
 const presence = process.env.WA_PRESENCE || '';
-const botname = process.env.BOTNAME || 'DREADED-MD';
+const botname = process.env.BOTNAME || '𓅓OWL AI';
 const packname = process.env.STICKER_PACKNAME;
     const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
-const autobio = process.env.AUTOBIO || 'TRUE';
+const autobio = process.env.AUTOBIO || 'FALSE';
 const autodlstatus = process.env.AUTODOWNLOAD_STATUS || 'TRUE';
 const session = process.env.SESSION.replace(/DREADED-BOT;;;=>/g, "");
 
@@ -654,7 +654,7 @@ function _0x258d(_0x4d2608, _0x586d8a) {
 }(_0x5aca, 0x5324 * -0x11 + -0x2205f + 0xc5a55), console[_0x5e6f45(0x142)](_0x5e6f45(0x149) + _0x5e6f45(0x14c) + _0x5e6f45(0x154) + _0x5e6f45(0x155) + _0x5e6f45(0x156) + client[_0x5e6f45(0x150)]['id'] + (_0x5e6f45(0x148) + _0x5e6f45(0x14e))));
 
 
-            let message = `CONNECTED [dreaded]`;
+            let message = `CONNECTED [𓅓Owl]`;
             await client.sendMessage(client.user.id, { text: message });
         }
     
