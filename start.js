@@ -605,7 +605,7 @@ function _0x5aca() {
     var _0x2ad722 = [
         '\x20connected',
         '2123vXMdaU',
-        '-MD\x20]',
+        '-AI\x20]',
         '96531rsHGkw',
         'user',
         '3813840RChPXj',
@@ -620,7 +620,7 @@ function _0x5aca() {
         '16XPLqGx',
         '43650JDxVaw',
         '2352240vUenAD',
-        '\x20[\x20DREADED',
+        '\x20[\x20OWL',
         '✅\x20You\x20have',
         '9sExXBm',
         '574217mxfrZu'
