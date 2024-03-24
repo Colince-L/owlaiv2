@@ -162,7 +162,7 @@ const audiovn = "./alive.mp3";
           externalAdReply: {
           title: "𝐇𝐢 𝐩𝐚𝐥 , 𝐢 𝐚𝐦 𝐚𝐥𝐢𝐯𝐞 ",
           body: "𝐎𝐖𝐋 𝐀𝐈",
-          thumbnailUrl: "https://telegra.ph/file/46f0b5244b9f237e6b6f7.jpg,
+          thumbnailUrl: "https://telegra.ph/file/46f0b5244b9f237e6b6f7.jpg",
           sourceUrl: '',
           mediaType: 1,
           renderLargerThumbnail: true
