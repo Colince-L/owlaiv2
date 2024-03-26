@@ -70,7 +70,7 @@ var msgDreaded = m.message.extendedTextMessage?.contextInfo?.quotedMessage;
    // leave the prefix string empty if you don't want the bot to use a prefix
 
 const mode = process.env.MODE || 'PUBLIC';
-const author = process.env.STICKER_AUTHOR || '𝐎𝐰𝐥';
+const author = process.env.STICKER_AUTHOR || 'Owl';
     const prefix = process.env.PREFIX || '';
 const mycode = process.env.COUNTRY_CODE || '254';
     const cmd = body.startsWith(prefix);
@@ -80,11 +80,12 @@ const admin = process.env.ADMIN_MSG || 'Are you an admin?';
     const NotOwner = process.env.NOT_OWNER_MSG || 'Are you the owner?';
 const appname = process.env.APP_NAME;
 const herokuapi = process.env.HEROKU_API;
-    const packname = process.env.STICKER_PACKNAME || 'owl';
+    const packname = process.env.STICKER_PACKNAME || 'dreaded';
 const dev = process.env.DEV || '254712703241'
  const DevDreaded = dev.split(",");
     const badwordkick = process.env.BAD_WORD_KICK || 'FALSE';
    const bad = process.env.BAD_WORD || 'fuck';
+const botname = process.env.BOTNAME || "𝐎𝐖𝐋 𝐀𝐈 𝐕𝟐";
 
     const autorecordtypegc = process.env.RECORDING_TYPINGGC || 'TRUE';
     const autoreaddm = process.env.AUTOREAD || 'TRUE';
@@ -160,8 +161,8 @@ const audiovn = "./alive.mp3";
         contextInfo: {
           mentionedJid: [m.sender],
           externalAdReply: {
-          title: "𝐇𝐢 𝐩𝐚𝐥 , 𝐢 𝐚𝐦 𝐚𝐥𝐢𝐯𝐞 ",
-          body: "𝐎𝐖𝐋 𝐀𝐈",
+          title: "𝐇𝐢 𝐩𝐚𝐥 𝐚𝐦 𝐨𝐰𝐥 𝐚𝐢 𝐚𝐧𝐝 𝐚𝐦 𝐚𝐥𝐢𝐯𝐞 𝐡𝐮𝐫𝐚𝐚𝐲",
+          body: "𝐎𝐖𝐋 𝐀𝐈 𝐕𝟐",
           thumbnailUrl: "https://telegra.ph/file/46f0b5244b9f237e6b6f7.jpg",
           sourceUrl: '',
           mediaType: 1,
@@ -201,7 +202,7 @@ function _0x5caf() {
         '584335pexGhZ',
         'cf7f0aef85',
         '1732146ZgkyoO',
-        'OWL\x20BO',
+        '𝐎𝐖𝐋\x20BO',
         'qhefp'
     ];
     _0x5caf = function () {
@@ -400,7 +401,7 @@ if (stdout) return reply(stdout)
     if (mek.key.id.startsWith("BAE5") && m.isGroup && !isAdmin && isBotAdmin && mek.key.id.length === 16 && antibot === 'TRUE') {  
 
  const kidts = m.sender;  
-  await client.sendMessage(m.chat, { text: `Dreaded AntiBot:\n@${kidts.split("@")[0]} is bot and has been removed to prevent spam!\nTo deactivate antibot set ANTIBOT variable to FALSE`, contextInfo:{mentionedJid:[kidts]}}, {quoted:m});  
+  await client.sendMessage(m.chat, { text: `Owl ai AntiBot:\n@${kidts.split("@")[0]} is bot and has been removed to prevent spam!\nTo deactivate antibot set ANTIBOT variable to FALSE`, contextInfo:{mentionedJid:[kidts]}}, {quoted:m});  
   await client.groupParticipantsUpdate(m.chat, [kidts], 'remove');  
 
   } 
@@ -428,7 +429,7 @@ if (stdout) return reply(stdout)
 if (m.chat.endsWith("@s.whatsapp.net") && body && (new RegExp('\\b' + badword.join('\\b|\\b') + '\\b')).test(body.toLowerCase())) {
 
 
-await m.reply("You will be blocked and reported for using vulgar words in the bots private chat.\nContact owner to be unblocked. Bye");
+await m.reply("You will be blocked and reported for using vulgar words in the bots private chat.\nContact owner to be unblocked. Adios😂");
 
 await client.updateBlockStatus(sender, 'block');
 
@@ -514,7 +515,7 @@ return;
 
 
     if (cmd && !m.isGroup) {
-      console.log(chalk.black(chalk.bgWhite("[ OWL-AI V2 ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
+      console.log(chalk.black(chalk.bgWhite("[ DREADED-MD ]")), color(argsLog, "turquoise"), chalk.magenta("From"), chalk.green(pushname), chalk.yellow(`[ ${m.sender.replace("@s.whatsapp.net", "")} ]`));
     } else if (cmd && m.isGroup) {
       console.log(
         chalk.black(chalk.bgWhite("[ LOGS ]")),
@@ -631,7 +632,7 @@ commands[command](client, m);
 break;
 
 case "menu":
-commands[command](client, m, menureply);
+commands[command](client, m, menureply, botname, mode);
 break;
 case "ig":
 commands[command](client, m, text, fetchJson, getBuffer);
@@ -771,7 +772,27 @@ break
 case "bc":
 commands[command](client, m, text, Owner, NotOwner, participants, pushname);
 
+break;
 
+case "allvar":
+commands[command](client, m, text, Owner, NotOwner, herokuapi, appname);
+
+break;
+
+case "getvar":
+commands[command](client, m, text, Owner, NotOwner, herokuapi, appname);
+
+
+break;
+case "update":
+commands[command](client, m, text, Owner, NotOwner, herokuapi, appname);
+
+break;
+
+case "setvar":
+commands[command](client, m, text, Owner, NotOwner, herokuapi, appname, arg);
+
+break;
 
 
 
