@@ -1,5 +1,5 @@
 {
-  "name": "OWL AI",
+  "name": "𝐎𝐰𝐥  𝐚𝐢 𝐯𝟐",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -21,7 +21,7 @@
   "env": {
        "PREFIX":
     {
-      "description":"choose your prefix for OWL",
+      "description":"choose your prefix for dreaded",
       "value":"",
       "required":false
     },
@@ -29,6 +29,11 @@
     "DEV": {
       "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254712703241, 254741889898 ",
       "required": true
+    },
+
+ "EVENTS": {
+      "description": "Put TRUE if you want bot to send welcome and goodbye messages",
+      "required": false
     },
 
     "NOT_OWNER_MSG": {
